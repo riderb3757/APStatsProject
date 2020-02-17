@@ -1,5 +1,8 @@
 import java.util.Scanner;
 
+import java.io.FileWriter;   
+import java.io.IOException;  
+
 /**
  * Write a description of class Start here.
  *
@@ -13,20 +16,17 @@ public class Start
     private float numberOfTrials;
     private float totalMoney;    
     
-    public Start()
-    {
+    public Start(){
         totalMoney = 0;
     }
 
     /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
+     * Run this method to run trials of the simulation. 
      */
-    public void main()
-    {
+    public void main(){
         totalMoney = 0;
+        
+        FileWriter myWriter = new FileWriter("results.txt");
         
         System.out.println("Here is the program to run a simulation of Problem 20\n\n");
         
@@ -44,10 +44,14 @@ public class Start
             
             System.out.println(g.printCards());
             
-            totalMoney+=g.runGame();
+            int moneyWon = g.runGame();
             
-            g = null;
+            myWriter.write(" " + moneyWon);
+            
+            totalMoney+=moneyWon;
         }       
+        
+        myWriter.close();
         
         System.out.println("The total amount of money from all " + numberOfTrials + " simulations is $" + totalMoney);
         System.out.println("The average amount of money gained from each trial is $" + totalMoney/numberOfTrials);
