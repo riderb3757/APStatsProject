@@ -1,30 +1,32 @@
-
 /**
- * Write a description of class Card here.
+ * Here is the class file for the Card object.
  *
  * @author Rider Bishop
  * @version 2/16/2020
  */
 public class Card
-{
-    // instance variables - replace the example below with your own
-    
+{    
     private boolean isAce;
-
+    
     /**
-     * Constructor for objects of class Card
+     * If no parameter is entered, than the card will be a non-ace card
      */
     public Card()
     {
         isAce = false;
     }
     
+    /**
+     *  If the card is an ace, then set the boolean "isAce" to true
+     */
     public Card(boolean isAce){
         this.isAce = isAce;
     }
     
+    /**
+     *  Return a boolean depending on if the card is an ace or not
+     */    
     public boolean value(){
         return isAce;
     }
-
 }
