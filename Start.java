@@ -1,7 +1,4 @@
-import java.util.Scanner;
-
-import java.io.FileWriter;   
-import java.io.IOException;  
+import java.util.Scanner; 
 
 /**
  * Write a description of class Start here.
@@ -26,7 +23,6 @@ public class Start
     public void main(){
         totalMoney = 0;
         
-        FileWriter myWriter = new FileWriter("results.txt");
         
         System.out.println("Here is the program to run a simulation of Problem 20\n\n");
         
@@ -44,11 +40,7 @@ public class Start
             
             System.out.println(g.printCards());
             
-            int moneyWon = g.runGame();
-            
-            myWriter.write(" " + moneyWon);
-            
-            totalMoney+=moneyWon;
+            totalMoney+=g.runGame();
         }       
         
         myWriter.close();
