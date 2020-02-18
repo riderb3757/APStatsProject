@@ -43,8 +43,6 @@ public class Start
             totalMoney+=g.runGame();
         }       
         
-        myWriter.close();
-        
         System.out.println("The total amount of money from all " + numberOfTrials + " simulations is $" + totalMoney);
         System.out.println("The average amount of money gained from each trial is $" + totalMoney/numberOfTrials);
     }
