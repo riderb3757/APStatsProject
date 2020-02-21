@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Start
+comment0.text=\r\n\ @author\ Rider\ Bishop\r\n\ @version\ 2/20/2020\r\n
+comment1.params=
+comment1.target=Start()
+comment2.params=
+comment2.target=void\ main()
+comment2.text=\r\n\ Run\ this\ method\ to\ run\ trials\ of\ the\ simulation\ and\ get\ the\ average\ amount\ of\ money\ won.\ \r\n
+comment3.params=
+comment3.target=void\ get100Trials()
+comment3.text=\r\n\ \ This\ method\ runs\ one\ hundred\ trials\ and\ prints\ the\ amount\ of\ money\ from\ each\r\n
+numComments=4

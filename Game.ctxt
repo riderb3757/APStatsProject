@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Game
+comment0.text=\r\n\ Here\ is\ a\ class\ to\ create\ a\ single\ trial\ of\ the\ game.\r\n\r\n\ @author\ Rider\ Bishop\r\n\ @version\ 2/20/2020\r\n
+comment1.params=
+comment1.target=Game()
+comment1.text=\r\n\ Create\ a\ Object\ and\ add\ cards\ to\ the\ ArrayList\ of\ cards.\r\n
+comment2.params=
+comment2.target=void\ shuffle()
+comment2.text=\r\n\ \ Randomize\ the\ ArrayList\ to\ simulate\ shuffling\ the\ cards.\ \r\n
+comment3.params=
+comment3.target=java.lang.String\ printCards()
+comment3.text=\r\n\ \ Convert\ the\ value\ of\ the\ cards\ to\ a\ string,\ with\ "ace"\ referring\ to\ an\ ace\ and\ "*"\ referring\ to\ a\ non-ace\ card.\ \r\n
+comment4.params=
+comment4.target=int\ winnings()
+comment4.text=\ \r\n\ \ Calculate\ the\ amount\ of\ money\ won\ from\ the\ game\ based\ on\ how\ many\ cards\ are\ left.\ \r\n
+comment5.params=
+comment5.target=int\ runGame()
+comment5.text=\r\n\ \ Play\ the\ game\ to\ determine\ how\ much\ money\ is\ won.\r\n
+numComments=6

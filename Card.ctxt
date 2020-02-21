@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Card
+comment0.text=\r\n\ Here\ is\ the\ class\ file\ for\ the\ Card\ object.\r\n\r\n\ @author\ Rider\ Bishop\r\n\ @version\ 2/20/2020\r\n
+comment1.params=
+comment1.target=Card()
+comment1.text=\r\n\ If\ no\ parameter\ is\ entered,\ then\ the\ card\ will\ be\ a\ non-ace\ card\r\n
+comment2.params=isAce
+comment2.target=Card(boolean)
+comment2.text=\r\n\ \ If\ the\ card\ is\ an\ ace,\ then\ set\ the\ boolean\ "isAce"\ to\ true\r\n
+comment3.params=
+comment3.target=boolean\ value()
+comment3.text=\r\n\ \ Return\ a\ boolean\ depending\ on\ if\ the\ card\ is\ an\ ace\ or\ not\r\n
+numComments=4
